@@ -1,0 +1,11 @@
+.App {
+    background: red;
+    animation-name: test;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes test {
+    from { background-color: red; }
+    to { background-color: blue; }
+}
